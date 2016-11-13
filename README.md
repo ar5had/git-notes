@@ -66,10 +66,6 @@ In this case, we'll send our branch named 'master' to our remote on GitHub named
 Branches are case-sensitive so name your branch exactly the way your GitHub name appears.
 
     git branch <BRANCHNAME>
-
-To go into that branch and work on it, similar to using cd to change directory in terminal, you checkout a branch. Go onto your new branch:
-
-    git checkout <BRANCHNAME>
     
 ##  To change your branch name
 
