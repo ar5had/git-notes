@@ -102,7 +102,7 @@ Branches are case-sensitive so name your branch exactly the way your GitHub name
     git checkout <BRANCHNAME>
 
 ## Delete a local branch
-    git branch -d <BRANCHNAME>
+    git branch -D <BRANCHNAME>
 
 ## Delete a remote branch
     git push <REMOTENAME> --delete <BRANCHNAME>
