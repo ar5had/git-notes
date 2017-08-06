@@ -109,6 +109,15 @@ Branches are case-sensitive so name your branch exactly the way your GitHub name
 
 ## Pull from a remote branch
     git pull <REMOTENAME> <BRANCHNAME>
+    
+## Allow unrelated history repo pull
+    git pull <REMOTENAME> <BRANCHNAME> --allow-unrelated-histories
+
+## Cache password 
+    git config --global credential.helper cache
+
+## Cache password for a specific time
+    git config --global credential.helper 'cache --timeout=<time>'
 
 
 
